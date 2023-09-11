@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+c = list(map(int,input().split()))
+print(*[sorted([i,j,y])[1] for i,j,y in zip(a,b,c)])
