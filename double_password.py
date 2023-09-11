@@ -1,0 +1,1 @@
+print(2**sum(1 for i,j in zip(input(),input())if i != j))
