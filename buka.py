@@ -1,1 +1,0 @@
-print(eval("".join(i.strip() for i in open(0))))

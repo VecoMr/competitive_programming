@@ -1,1 +1,0 @@
-for i in open(0):print("%.2f"%eval(i))

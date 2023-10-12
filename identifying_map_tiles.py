@@ -1,5 +1,0 @@
-s = input()
-le = len(s)
-x = sum([2**(le-i-1) *(int(s[i])%2) for i in range(le)])
-y = sum([2**(le-i-1) * (int(int(s[i]) > 1)) for i in range(le)])
-print(le, x, y)
