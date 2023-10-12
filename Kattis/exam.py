@@ -1,0 +1,5 @@
+t = int(input())
+a, b=input(), input()
+m = sum(1 for i,j in zip(a,b) if i==j)
+n = sum(1 for i,j in zip(a,b) if i!=j)
+print(min(t,m)+min(len(a)-t, n))

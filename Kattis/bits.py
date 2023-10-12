@@ -1,0 +1,1 @@
+print(*[max(bin(int(i[:1+j])).count("1")for j in range(len(i)))for i in open(0)][1:],sep="\n")
