@@ -19,7 +19,7 @@ for i in range(0,len(l),2):
     milks = l[i+1]
     c = max(math.ceil(sum(milks)/m), max(milks))
     a = 0
-    while a := is_possibble(m, milks, c):
+    while a := is_possible(m, milks, c):
         # print(a)
         c += a
     print(c)
