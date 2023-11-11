@@ -49,6 +49,7 @@ for i in range(n):
         if s[y] == "?":
             r += 1
             s[y] = "0"
-    # print(s, t)
+    print(*s,sep="")
+    print(*t,sep="")
     r += sum(1 for i,j in zip(s,t) if i != j) // 2
     print(f'Case {i+1}: {r}')

@@ -1,0 +1,1 @@
+print(f"X = {sum(map(int,open(0)))}")
