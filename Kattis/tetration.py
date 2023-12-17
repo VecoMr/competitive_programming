@@ -1,4 +1,4 @@
-n = float(input())
-a=n
-r = 0
-n = n**0.5
+n=float(input())
+print(n**(1/n))
+# n=gets.to_f
+# p n**1/n

@@ -1,10 +1,22 @@
 n = int(input())
-l = []
-m = 2
-while n != 1:
-    if n%m==0:
-        l.append(m)
-        n //= m
+m = 0
+k = 0
+t = 0
+for i in range(n+2):
+    # print(i, k, t)
+    if t == n:
+        print(k)
+        break
+    if t + i < n:
+        k += 1
+        t += i
+    elif t + i > n:
+        while t + i > n:
+            # print(i, k, t, i - k)
+            t -= i - k
+            k -= 1
+        t += i
+        k += 1
     else:
-        m += 1
-print(len(l))
+        print(k)
+        break
