@@ -1,0 +1,1 @@
+print(f"SOMA = {sum(map(int,open(0)))}")
