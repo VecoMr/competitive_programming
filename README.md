@@ -1,4 +1,4 @@
-| Title | Link | Level | Difficulty |
+| Title | Link | Level | Languages |
 | ----- | ---- | ----- | ---------- |
 | 2048 | <a href='https://open.kattis.com/problems/2048'> <img heigth='64' width='64' src='assets/kattis.png' alt='logo kattis'></a> | <p style='color:orange'>3.0 Medium</p> |<a href='https://github.com/VecoMr/competitive_programming/tree/main/Kattis/2048/11494073'> <img heigth='64' width='64' src='assets/Python_3.png' alt='logo Python 3'></a> |
 | 3D Printed Statues | <a href='https://open.kattis.com/problems/3dprinter'> <img heigth='64' width='64' src='assets/kattis.png' alt='logo kattis'></a> | <p style='color:green'>2.7 Easy</p> |<a href='https://github.com/VecoMr/competitive_programming/tree/main/Kattis/3dprinter/11543448'> <img heigth='64' width='64' src='assets/Python_3.png' alt='logo Python 3'></a> |
