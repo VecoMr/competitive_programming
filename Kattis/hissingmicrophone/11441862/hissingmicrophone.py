@@ -1,0 +1,1 @@
+print(("","no ")[input().count("ss") == 0] + "hiss")

@@ -1,0 +1,1 @@
+print(("Imposter!", "Canadian!")[input()[-3:]=="eh?"])

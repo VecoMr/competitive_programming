@@ -1,0 +1,1 @@
+print(*[j-i for i,j in zip(map(int,input().split()), [1, 1, 2, 2, 2, 8])])

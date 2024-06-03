@@ -1,0 +1,1 @@
+print(int(sum(int(i)*int(j) for i,j in zip(input().replace("-",""),"4327654321"))%11==0))

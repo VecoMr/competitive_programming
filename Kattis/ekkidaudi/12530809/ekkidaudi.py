@@ -1,0 +1,1 @@
+print(*["".join(i) for i in zip(*[input().split("|"), input().split("|")])])

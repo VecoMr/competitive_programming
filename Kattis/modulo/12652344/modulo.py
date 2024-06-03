@@ -1,0 +1,1 @@
+print(len(set(i%42 for i in map(int,open(0)))))

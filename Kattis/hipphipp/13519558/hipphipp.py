@@ -1,0 +1,1 @@
+[print("Hipp hipp hurra!") for _ in range(20)]

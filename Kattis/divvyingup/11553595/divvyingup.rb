@@ -1,0 +1,1 @@
+puts`sed 1d`.split.map(&:to_i).sum%3<1?"yes":"no"

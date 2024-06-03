@@ -1,0 +1,1 @@
+puts $<.map(&:to_i).zip(%w(Monnei Fjee Dolladollabilljoll)).min[1]

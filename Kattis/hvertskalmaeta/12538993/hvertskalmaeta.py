@@ -1,0 +1,1 @@
+print(("Reykjavik","Akureyri")[input() in ["Akureyri","Fjardabyggd","Mulathing"]])

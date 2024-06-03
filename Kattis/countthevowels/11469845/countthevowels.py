@@ -1,0 +1,1 @@
+print(sum(1 for i in input().lower() if i in "aeiou"))

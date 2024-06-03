@@ -1,0 +1,1 @@
+print(f'H{"e"*input().count("e")*2}y')
